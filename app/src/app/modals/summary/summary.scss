@@ -1,0 +1,195 @@
+.top-row {
+    display: flex;
+    align-items: center;
+   
+}
+.box {
+    background-color: #4D54A4;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.bank{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.top-text-div{
+    display: flex; 
+    margin-top: 20px;
+    padding-bottom: 2px;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+.top-text-div-top{
+    display: flex; 
+    margin-top: 40px;
+    padding-bottom: 30px;
+    flex-direction: row; 
+    justify-content: space-between; 
+    border-bottom: 1px rgba(35, 35, 35, 0.0509091) solid;  
+}
+.bottom{
+    display: flex; 
+    margin-top: 40px;
+    padding-bottom: 30px;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+.middle-div{
+    display: flex; 
+    margin-top: 20px;
+    padding-bottom: 2px;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+.bottom-divs{
+    display: flex; 
+    margin-top: 14px;
+    padding-bottom: 2px;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+.bottom-button{
+    display: flex; 
+    margin-top: 15px;
+    padding-bottom: 2px;
+    flex-direction: row; 
+    justify-content: flex-end; 
+}
+.bottoms-button{
+    display: flex; 
+    margin-top: 15px;
+    padding-bottom: 2px;
+    flex-direction: row; 
+    justify-content: flex-start; 
+}
+.ref{
+    font-size: 18px; 
+    align-items: center; 
+    text-align: center;
+    margin-top: 6px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+.soccer-centr{
+    font-family: 'GR Read Two';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 20px;
+    color: #000000;
+}
+.button-border{
+    border: 1px #4D54A4 solid;
+    width: 160px;
+    color: #4D54A4;
+    padding:6px 24px;
+    background: #FFFFFF;
+    padding-left: 50px !important;
+    text-align: left;
+    border-radius: 9px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    outline: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+.bottom-content{
+    display: flex; 
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    color: #4D54A4;
+    padding-bottom: 2px;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+.top-text-divs{
+    display: flex; 
+    margin-top: 70px;
+    padding-bottom: 30px;
+    flex-direction: row; 
+    justify-content: space-between; 
+    border-bottom: 1px rgba(35, 35, 35, 0.0509091) solid;  
+}
+.tops-text-divs{
+    display: flex; 
+    margin-top: 100px;
+    padding-bottom: 35px;
+    flex-direction: row; 
+    justify-content: space-between; 
+    border-bottom: 1px rgba(35, 35, 35, 0.0509091) solid;  
+}
+.middle-div-content{
+    display: flex; 
+    margin-top: 40px;
+    padding-bottom: 30px;
+    flex-direction: row; 
+    justify-content: space-between; 
+    border-bottom: 1px rgba(35, 35, 35, 0.0509091) solid; 
+}
+.top-div-content{
+    display: flex; 
+    margin-top: 90px;
+    padding-bottom: 30px;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+.button{
+    background-color: #4D54A4;
+    width: 190px;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    outline: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #22242A;
+}
+.texts{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    width: 100px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #22242A;
+}
+.texs{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #22242A;
+}
+.txts{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #22242A;
+}

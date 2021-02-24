@@ -1,0 +1,51 @@
+<ion-content [fullscreen]="true"> 
+      <img class="bcnd-img" src="../../assets/sign-in.png"/>
+    <div>
+      <div>
+        <img class="blue-reagle" src="../../assets/blue-rangle.png"/>
+       <div > 
+        <div class="reagle-text" (click)="gotoSignuUp()">SIGN UP</div></div> 
+      </div>
+       <div>
+        <img class="white-reagle" src="../../assets/rectangle-white.png"/>
+
+        <div class="form">
+          <div class="sign-up">SIGN IN</div>
+
+          <div class="email">@</div>
+          <input 
+            class="input" 
+            type="email" 
+            [(ngModel)]="email"        
+            placeholder="Bradwebster@gmail.com"
+            />
+           <div class="emil-bodr" ></div> 
+            <img  class="lock" src="../../assets/icon/L-Icon.png"/>
+            <input 
+             class="input"
+             id="pwds"
+             type="password"
+             [(ngModel)]="password"        
+             placeholder="password"
+             />
+             <div class="input-border"></div> 
+             <img id="imgs"                    
+                (click)="toggleConfirmPassword()"
+                class="pswd" 
+                src="../../assets/icon/R-Icon.png"
+              />
+       </div> 
+       <div class="forget-pass" (click)="gotoPassword()">FORGOT PASSWORD</div>
+    </div>
+  </div>
+</ion-content>
+
+
+<ion-footer >
+    <div class="footer">
+      <button class="sign-in" (click)="loadUser()">SIGN IN</button> 
+    </div>
+</ion-footer>
+
+
+

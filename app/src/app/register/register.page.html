@@ -1,0 +1,49 @@
+
+
+<ion-content class="ion-padding" [fullscreen]="true">
+ 
+   <div id="container">
+     <div class="sign-up"><img (click)="gotoBack()" src="../../assets/icon/Shape.png"/></div>
+     <div class="pernal-info">LOGIN PASSWORD</div>  
+   <div class="form">
+     <div class="lable">Password</div>
+   <div class="pswrd"> 
+     <img 
+     src="../../assets/icon/R-Icon.png"
+     (click)="toggleConfirmPassword()"
+     id="imgs"
+     />
+    </div>
+     <input 
+       class="input" 
+       id="pwds"
+       type="password" 
+       [(ngModel)]="password" 
+       placeholder="password"
+       />
+   <div class="lable">Confirm password</div>
+   <div class="pswd" > 
+     <img 
+    src="../../assets/icon/R-Icon.png"
+    (click)="ConfirmPassword()"
+    id="ims"
+    /></div>
+     <input 
+        class="input" 
+        type="password" 
+        id="pws"
+        [(ngModel)]="confirmPassword" 
+        placeholder="confirm password"
+        />
+   </div> 
+  </div> 
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <div class="footer">
+      <button class="button" (click)="loadUser()" >NEXT STEP</button> 
+    </div>
+  </ion-toolbar>
+</ion-footer>
+

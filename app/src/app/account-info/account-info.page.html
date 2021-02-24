@@ -1,0 +1,82 @@
+
+<ion-content [fullscreen]="true">
+ <div class="bkgrd">
+   <div class="inner-bckgrd">
+      <div id="container">
+         <div class="top-box">
+            <div class="right-angle">
+               <input id="fileInput" type="file" style="display: none" (click)="setSrc()"/>
+               <img
+               id="imgid"
+               style="width:80px; border-radius: 18px; height: 80px;"
+               src={{Image}}
+               (click)="openDialog()"
+             />
+                </div>
+            <div class="text-container">
+         <div class="name">{{first_name}} {{last_name}}</div>
+      <div class="join-date">Join since May 2018</div>
+   </div>
+</div> 
+  <div>
+     <div class="pernal-info">PERSONAL INFORMATION</div>
+        <div class="form">
+          <div class="lable">First name</div> 
+           <input 
+            class="input" 
+            type="text" 
+            maxlength="12"
+            [(ngModel)]="first_name"        
+            placeholder="ROSA"
+            />
+          <div class="lable">Last name</div>
+          <input 
+             class="input" 
+             type="text" 
+             [(ngModel)]="last_name"
+             maxlength="12"        
+             placeholder="PEREZ"
+             />
+          <div class="lable">Gender</div>
+          <input 
+             class="input" 
+             type="text" 
+             maxlength="8"
+             [(ngModel)]="gender"        
+             placeholder="FEMALE"
+             />
+          <div class="pernal-info" style="margin-bottom:20px;">CONTACT INFORMATION</div>
+
+          <div class="lable">Phone number</div>
+          <input 
+             class="input" 
+             type="tel"
+             maxlength="10" 
+             [(ngModel)]="phoneNumber"        
+             placeholder="+989900998"
+             />
+          <div class="lable">Email address</div>
+          <input 
+             class="input" 
+             type="email" 
+             [(ngModel)]="email"   
+             maxlength="22"     
+             placeholder="bymsmof@gmail.com"
+             />
+          <div class="lable">Address</div>
+          <input 
+             class="input" 
+             type="text" 
+             maxlength="24"
+             [(ngModel)]="address"        
+             placeholder="432 W. Pheasant Rd.Essex"
+             />  
+        </div>
+        <button class="button" (click)="loadUser()">SAVE CHANGE</button>   
+      </div> 
+     </div> 
+   </div>
+ </div>
+</ion-content>
+
+

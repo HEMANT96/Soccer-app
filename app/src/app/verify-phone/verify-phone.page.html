@@ -1,0 +1,28 @@
+
+
+<ion-content class="ion-padding" [fullscreen]="true">
+ 
+   <div id="container">
+     <div class="sign-up"><img (click) ="gotoback()" src="../../assets/icon/Shape.png"/></div>
+     <div class="pernal-info"><div style="margin-right: 4px;">To continue enter your</div><b>phone number</b></div>  
+   <div class="form">
+   <div class="lable">Phone number</div>
+     <input 
+        class="input" 
+        [(ngModel)]="phoneNumber" 
+        type="tel" 
+        maxlength="10"
+        placeholder="+8765456789"
+        />
+   </div> 
+  </div> 
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <div class="footer">
+      <button class="button" (click)="loadUser()" >NEXT STEP</button> 
+    </div>
+  </ion-toolbar>
+</ion-footer>
+

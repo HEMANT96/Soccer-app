@@ -1,0 +1,113 @@
+
+<ion-content [fullscreen]="true">
+ <div class="bkgrd">
+   <div class="inner-bckgrd">
+     <img style="width:100%;" src="../../assets/icon/fotball.png"/> 
+     <div class="text-top">MY BOOKINGS</div>   
+   </div>
+    <div class="" style="position: absolute; width: 91.5%; bottom: 180px;">
+      <div class="container"  *ngFor="let todo of centers"> 
+         <img 
+         style="width:40%; border-top-right-radius:50px; border-bottom-right-radius:50px;" 
+         src={{todo.image}}
+         />
+         <div class="text-container">
+            <div class="tag">{{todo.centre_name}}</div>
+            <div class="address">{{todo.address}}</div>
+            <div class="time">{{todo.created_at}}</div>
+            <div class="icon-text">
+               <img class="icons" src="../../assets/icon/Group.png"/>
+               <div class="text-number">{{todo.total_slots}}/25</div>
+            </div>
+            <div class="button-div">
+               <button class="button" (click)="gotoBookGame(todo._id)" style="width: 95px;">BOOKED</button>
+            </div>
+         </div>
+      </div>
+     <!--  <div class="container"> 
+         <img style="width:100%;" src="../../assets/icon/match.png"/>
+         <div class="text-container">
+            <div class="tag">SOCCER CENTRE</div>
+            <div class="address">7000 48 St SE, Calgary,</div>
+            <div class="time">5:30 am - 9:00 pm</div>
+            <div class="icon-text">
+               <img class="icons" src="../../assets/icon/Group.png"/>
+               <div class="text-number">10/25</div>
+            </div>
+            <div class="button-div">
+               <button class="button" style="width: 95px;">BOOKED</button>
+            </div>
+         </div>
+      </div> -->
+     <!--  <div class="container"> 
+         <img style="width:100%;" src="../../assets/icon/match.png"/>
+         <div class="text-container">
+            <div class="tag">SOCCER CENTRE</div>
+            <div class="address">7000 48 St SE, Calgary,</div>
+            <div class="time">5:30 am - 9:00 pm</div>
+            <div class="icon-text">
+               <img class="icons" src="../../assets/icon/Group.png"/>
+               <div class="text-number">10/25</div>
+            </div>
+            <div class="button-div" style="position: absolute; right:10px;">
+               <button class="button-cancel">CANCELLED</button>
+            </div>
+         </div>
+      </div> -->
+      <!-- <div class="container"> 
+         <img style="width:100%;" src="../../assets/icon/match.png"/>
+         <div class="text-container">
+            <div class="tag">SOCCER CENTRE</div>
+            <div class="address">7000 48 St SE, Calgary,</div>
+            <div class="time">5:30 am - 9:00 pm</div>
+            <div class="icon-text">
+               <img class="icons" src="../../assets/icon/Group.png"/>
+               <div class="text-number">10/25</div>
+            </div>
+            <div class="button-div">
+               <button class="button" style="width: 95px;">BOOKED</button>
+            </div>
+         </div>
+      </div> 
+          -->
+   </div>
+  <div style="position: absolute;  width: 91.5%; bottom: 15px;"> 
+    <div class="container" style="height: 140px !important;"> 
+       <div style="margin:11px;">
+           <div class="tag-out">PLAY UNLIMITED SOCCER</div>
+             <div class="address-out">For as little as 40/Week </div>
+             <div class="button-div-out">
+            <button class="button-out">PLAY NOW</button>
+         </div>
+       </div>
+     </div> 
+   </div> 
+ 
+ </div>
+</ion-content>
+
+<ion-footer class="ion-no-border">
+     <div>
+        <div class="foter"> 
+         <div class="img-div">  
+         <img class="img-lb" routerLink="/home"  src="../../assets/icon/black-home.png"/>
+         <div class="img-text">Home</div>
+         </div>
+         <div class="img-divs">
+         <img class="img-lbs" style="padding-left: 4px;" src="../../assets/icon/white-ball.png"/>
+         <div class="img-text">GAME</div>
+           </div>
+           <div style="padding: 20px;"> 
+            <img class="img-lb" routerLink="/drop-in-pass"  src="../../assets/icon/Schedule.png"/>
+         </div>
+         <div style="padding: 20px;">
+            <img class="img-lb" routerLink="/on-boarding"  src="../../assets/icon/Favourite.png"/>
+         </div>
+         <div style="padding: 20px;">
+         <img class="img-lb" routerLink="/profile" src="../../assets/icon/Profile.png"/>
+         </div>  
+      </div>
+     </div>
+ </ion-footer>
+
+

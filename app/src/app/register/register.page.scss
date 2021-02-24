@@ -1,0 +1,113 @@
+.sign-up {
+font-family: Righteous;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #22242A;
+display: flex;
+flex-direction: row;
+}
+.form{
+  margin-top: 22px;
+  position: relative;
+}
+.input{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  display: flex;
+  padding-bottom: 10px;
+  flex-direction: row;
+  width: 100%;
+  outline: none;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px rgba(35, 35, 35, 0.0909091) solid;
+}
+.lable{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #22242A;
+}
+.pswrd{
+  position: absolute; 
+  right: 0px; 
+  bottom: 75px;
+}
+.pswd{
+  position: absolute; 
+  right: 0px; 
+  bottom: 1px;
+}
+.pernal-info{
+  display: flex;
+  flex-direction: row;
+  margin-top:75px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 20px;  
+  color: #22242A;
+}
+.button{
+  position: absolute;
+  bottom:-120px;
+  outline: none;
+  font-weight: bold;
+  background-color: #4D54A4;
+  padding-right: 70px !important;
+  color: white;
+  padding:12px;
+  width: 200px;
+  border-radius: 8px;
+  right: -40px;
+}
+.sign-in{
+  position: absolute;
+  bottom:-108px;
+  width: 200px;
+  border-radius: 40px;
+  left: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #A6A6B3;
+}
+#container {
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.8%;
+}
+
+.footer{
+  margin-bottom: 140px; 
+  position: relative;
+}
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}

@@ -1,0 +1,63 @@
+
+<ion-content [fullscreen]="true">
+
+ <div class="bkgrd">
+   <div class="inner-bckgrd">
+    <div class="sign-up">
+      <img (click)="gotoback()" src="../../assets/icon/Shape.png"/>
+       </div>
+          <img style="width:100%; border-bottom-right-radius:80px;" 
+              src={{centersById.image}}/>
+            <div class="img-tab1"> June 10, 7:30 pm •  Genesis Centre</div>
+             </div>
+           <div class="midle-box"> 
+         <div class="scopr-div"> 
+      <div>{{centersById.centre_name}}</div>
+    </div>
+  <div class="date-div"> 
+    <div>JUNE 10,7:30PM @ 9:00PM</div> 
+      </div>
+        <div class="grp-text-div"> 
+          <div class="icon-text">
+             <img class="icons" src="../../assets/icon/Group.png"/>
+               <div class="text-number">{{centersById.total_slots}}/25</div>
+                 </div>
+                </div>
+               <div class="grp-text-div"> 
+             <div 
+              type="text"
+              class="input"
+             > </div>
+          </div>
+        <div class="abt-game"> 
+     <div>ABOUT THIS GAME</div>   
+   </div>
+     <div class="discrption"> 
+        <div class="text-discrtion">Description</div>   
+           </div>
+               <div style="margin-top: 6px !important;" class="discrption"> 
+                   <div class="dis-content"> {{centersById.description}}  </div>   
+                      </div>
+                           <div style="margin-top: 30px;" class="discrption"> 
+                       <div class="loc-box"> Location</div>   
+                    </div>
+                <div class="text-bottom"> 
+           <div class="loc-content" style="width: 70%;"> 
+                 {{centersById.address}}
+        </div>   
+     </div>
+  </div>
+     <div class="map-box"> 
+        <div #map id="map" ></div>
+        </div>
+           <div class="footer">
+              <button class="button"(click)="presentModal()" >BOOK GAME</button> 
+                 </div>
+                    </div>
+                       </ion-content>
+                    <ion-footer class="ion-no-border">
+                 <div>
+              </div>
+         </ion-footer>
+
+

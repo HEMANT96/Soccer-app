@@ -1,0 +1,63 @@
+
+
+<ion-content class="ion-padding" [fullscreen]="true">
+ 
+   <div id="container">
+    <div class="sign-up">SIGN UP</div>
+    
+    <div class="pernal-info">PERSONAL INFORMATION</div>  
+   <div class="form">
+     <div class="lable">First name</div>
+ 
+     <input 
+       class="input" 
+       type="text" 
+       [(ngModel)]="first_name" 
+       maxlength="12"      
+       placeholder="ROSA"
+       />
+     <div class="lable">Last name</div>
+     <input 
+        class="input" 
+        type="text" 
+        maxlength="12"
+        [(ngModel)]="last_name"       
+        placeholder="PEREZ"
+        />
+     <div class="lable">Gender</div>
+     <input 
+        class="input" 
+        type="text" 
+        maxlength="8"
+        [(ngModel)]="gender"       
+        placeholder="FEMALE"
+        />
+     <div class="lable">Email address</div>
+     <input 
+        class="input" 
+        type="email"
+        maxlength="22"
+       [(ngModel)]="email"        
+        placeholder="bymsmof@gmail.com"
+        />
+     <div class="lable">Address</div>
+     <input 
+        class="input" 
+        type="text"
+        maxlength="24" 
+        [(ngModel)]="address"        
+        placeholder="1234 5AVE SW "
+        />
+   </div>
+  </div> 
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <div class="footer">
+      <div class="sign-in" (click)="gotoBack()" >SIGNIN </div> 
+      <button class="button" (click)="loadUser()" >NEXT STEP</button> 
+    </div>
+  </ion-toolbar>
+</ion-footer>
+

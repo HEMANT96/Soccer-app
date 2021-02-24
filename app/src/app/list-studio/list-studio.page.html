@@ -1,0 +1,94 @@
+
+<ion-content [fullscreen]="true">
+  
+    <div class="sign-up"><img (click)="gotoback()" src="../../assets/icon/Shape.png"/></div>
+  <div class="one-box">
+   <div class="input-div">
+    <input 
+      class="input" 
+      type="text" 
+      [(ngModel)]="qText" 
+      />  
+     <img class="lock" src="../../assets/icon/serch.png"/>
+    </div>
+  </div>
+   <div style="margin-bottom: 40px;">
+    <div class="boxes">
+      <div class="container"  *ngFor="let todo of items | filter:qText"> 
+        <img 
+        style="width:40%; border-top-right-radius:50px; border-bottom-right-radius:50px;" 
+        src={{todo.image}}            
+         />
+          <div class="text-container">
+            <div class="tag">{{todo.centre_name}}</div>
+               <div class="address">{{todo.address}}</div>
+                <div class="time">{{todo.created_at}}</div>
+              <div class="icon-text">
+            <img class="icons" src="../../assets/icon/Group.png"/>
+          <div class="text-number">{{todo.total_slots}}/25</div>
+        </div>
+          <div class="button-div">
+            <button class="button" (click)="gotoBookGame(todo._id)" routerLink="/book-game">BOOK</button>
+          </div>
+      </div>
+   </div>
+  <!--  <div class="container"> 
+      <img style="width:100%;" src="../../assets/icon/match.png"/>
+      <div class="text-container">
+         <div class="tag">SOCCER CENTRE</div>
+         <div class="address">7000 48 St SE, Calgary,</div>
+         <div class="time">5:30 am - 9:00 pm</div>
+         <div class="icon-text">
+            <img class="icons" src="../../assets/icon/Group.png"/>
+            <div class="text-number">10/25</div>
+         </div>
+         <div class="button-div">
+            <button class="button" routerLink="/book-game">BOOK</button>
+         </div>
+      </div>
+   </div>
+   <div class="container"> 
+      <img style="width:100%;" src="../../assets/icon/match.png"/>
+      <div class="text-container">
+         <div class="tag">SOCCER CENTRE</div>
+         <div class="address">7000 48 St SE, Calgary,</div>
+         <div class="time">5:30 am - 9:00 pm</div>
+         <div class="icon-text">
+            <img class="icons" src="../../assets/icon/Group.png"/>
+            <div class="text-number">10/25</div>
+         </div>
+         <div class="button-div" style="position: relative; right:10px;">
+            <button class="button-cancel" style="position: absolute; right:-10px; bottom: -30px;">CANCELLED</button>
+         </div>
+      </div>
+   </div>
+   <div class="container"> 
+      <img style="width:100%;" src="../../assets/icon/match.png"/>
+      <div class="text-container">
+         <div class="tag">SOCCER CENTRE</div>
+         <div class="address">7000 48 St SE, Calgary,</div>
+         <div class="time">5:30 am - 9:00 pm</div>
+         <div class="icon-text">
+            <img class="icons" src="../../assets/icon/Group.png"/>
+            <div class="text-number">10/25</div>
+         </div>
+         <div class="button-div">
+            <button class="button" routerLink="/book-game">BOOK</button>
+         </div>
+      </div>
+   </div>  -->
+      
+</div>
+   </div>
+  <!--  <div style="text-align: center; padding-top: 20%">
+      <ion-spinner name="lines" v-if="displayLoader"></ion-spinner>
+      <div v-if="noDataMessage">No matching records found</div>
+   </div> -->
+</ion-content>
+<!-- <ion-footer class="ion-no-border">
+  <div class="footer">
+      <img class="footer-img"  src="../../assets/icon/fb.png"/> 
+      <img class="footer-img"  src="../../assets/icon/insta.png"/> 
+ </div>
+</ion-footer> -->
+

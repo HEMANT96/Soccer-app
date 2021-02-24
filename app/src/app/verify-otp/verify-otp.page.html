@@ -1,0 +1,52 @@
+
+
+<ion-content class="ion-padding" [fullscreen]="true">
+ 
+   <div id="container">
+     <div class="sign-up">
+       <img 
+            (click)="gotoback()" 
+            src="../../assets/icon/Shape.png"
+        />
+      </div>
+     <div class="pernal-info"><div>We've send a code to your phone <b>number {{phoneNumber}}. Please type it to the field below and get start!</b> </div></div>  
+   <div class="form">
+     <input 
+        class="input" 
+        type="tel"
+        (keyup)="$event.target.nextElementSibling.focus()" 
+        [(ngModel)]="otp1" 
+        maxlength="1" 
+        />
+        <input 
+        class="input" 
+        type="tel" 
+        (keyup)="$event.target.nextElementSibling.focus()" 
+        [(ngModel)]="otp2" 
+        maxlength="1"
+        />
+        <input 
+        class="input" 
+        type="tel" 
+        (keyup)="$event.target.nextElementSibling.focus()" 
+        [(ngModel)]="otp3" 
+        maxlength="1"
+        />
+        <input 
+        class="input" 
+        type="tel" 
+        [(ngModel)]="otp4" 
+        maxlength="1"
+        />
+   </div> 
+  </div> 
+</ion-content>
+
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <div class="footer">
+      <button class="button" (click)="loadUser()" >NEXT STEP</button> 
+    </div>
+  </ion-toolbar>
+</ion-footer>

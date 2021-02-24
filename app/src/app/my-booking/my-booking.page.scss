@@ -1,0 +1,362 @@
+.sign-up {
+font-family: Righteous;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+color: #22242A;
+display: flex;
+flex-direction: row;
+}
+.form{
+  margin-top: 22px;
+  position: relative;
+}
+input{
+  background-color:  rgba(255, 255, 255, -0.9);
+  color: #000000;
+}
+.input{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  display: flex;
+  padding-bottom: 10px;
+  flex-direction: row;
+  width: 100%;
+  color: #000000;
+  font-weight: 400;
+  outline: none;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px rgba(35, 35, 35, 0.0909091) solid;
+}
+.lable{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #22242A;
+
+}
+.pernal-info{
+  display: flex;
+  flex-direction: row;
+  margin-top:45px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;  
+  color: #22242A;
+}
+.button{
+  background-color: #4D54A4;
+  color: white;
+  padding:8px;
+  font-weight: bold;
+  align-items: right;
+  justify-content: right;
+  width: 85px;
+  border-radius: 6px;
+}
+.button-out{
+  background-color: #4D54A4;
+  color: white;
+  padding:12px;
+  font-weight: bold;
+  align-items: right;
+  justify-content: right;
+  width: 140px;
+  border-radius: 6px;
+}
+.button-cancel{
+  background-color: #FA0000;
+  color: white;
+  padding:8px;
+  
+  font-weight: bold;
+  align-items: right;
+  justify-content: right;
+  margin-top: 1px;
+  width: 110px;
+  border-radius: 6px;
+}
+.sign-in{
+  position: absolute;
+  bottom:-108px;
+  width: 200px;
+  border-radius: 40px;
+  left: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #A6A6B3;
+}
+.img-tab{
+  background-color: rgba(255, 255, 255, 0.75); 
+  width: 103%; 
+  padding: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #22242A;
+  border-bottom-right-radius:45px;
+  border-top-right-radius: 45px;
+  position: absolute;
+  box-shadow: 1px 4px lightgray; 
+  bottom:40px; 
+  height: 50px;
+}
+.img-tab1{
+  background-color: rgba(255, 255, 255, 0.75); 
+  width: 103%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #22242A;
+  padding: 16px;
+  border-bottom-right-radius:45px;
+  border-top-right-radius: 45px;
+  position: absolute; 
+  bottom:-30px;  
+  box-shadow: 1px 4px lightgray;
+  height: 50px;
+}
+.tag{  
+  width: 155px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #22242A;
+}
+.tag-out{
+  width: 300px;
+  font-family: 'Righteous';
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 30px;  
+  color: #22242A;
+}
+.button-div{
+  display: flex; 
+  margin-right: 8px !important;
+  flex-direction: row; 
+  justify-content: flex-end; 
+  align-items: flex-end;
+}
+.button-div-out{
+  display: flex; 
+  width: 250px;
+  flex-direction: row; 
+  justify-content: flex-start; 
+  align-items: flex-start;
+}
+.text-number{
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin: 1px;
+  padding-left: 4px;
+  line-height: 15px;
+  color: #22242A;
+}
+.icons{
+  width:18px; 
+  height: 18px;
+}
+.address{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.address-out{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin:14px 0px ;
+  line-height: 17px;
+  color: #000000;
+}
+.icon-text{
+  display: flex;
+  flex-direction: row;
+}
+.btn{
+  background-color: #4D54A4;
+}
+.inner-bckgrd{
+  width: 92%;
+  display: flex;
+  border-bottom-right-radius:45px;
+  flex-direction: row;
+  position: absolute;
+  left: 0px;
+  margin-top:0px;
+  height:480px;
+}
+.text-container{
+  margin: 20px;
+}
+.container{
+  height: 128px; 
+  display: flex; 
+  flex-direction: row; 
+  width: 100%; 
+  margin-bottom:10px;  
+  -webkit-box-shadow: 0 10px 10px rgba(123,123,123,0.6);
+   border-bottom-right-radius:38px;
+  border-top-right-radius: 38px;
+  background-color: rgba(255, 255, 255, ); 
+}
+.content-box{
+  padding: 20px;
+}
+.name{
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #22242A;
+  
+}
+.join-date{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #22242A;  
+}
+.time{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  width: 158px;
+  height: 16px;
+  overflow: hidden;
+  line-height: 17px;
+  color: #22242A;
+}
+.top-box{
+  display: flex;
+  flex-direction: row;
+}
+.map-box{
+  margin-top: 10px;   
+  -webkit-box-shadow: 0 10px 10px rgba(123,123,123,0.6);
+  width: 96%; 
+  height:200px; 
+  background-color: blue; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-start;
+}
+.right-angle{
+  width:75px;
+  border-radius: 18px;
+  height:75px;
+  background-color:#4D54A4;
+}
+.bkgrd{
+  width: 100%;
+  height:950px;
+  position: relative;
+}
+#container {
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.8%;
+}
+.img-div{
+  padding:10px; 
+  border-radius:10px; 
+}
+.img-divs{
+  padding:8px; 
+  border-radius:10px; 
+  background-color: #4D54A4;
+}
+.text-top{
+  position: absolute;
+  bottom:135px;
+  left:20px;
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.img-text{
+  color: white; 
+  font-size: 8px; 
+  justify-content:center;
+}
+.img-lb{
+  width: 16px;  
+  height: 14px;
+}
+.img-lbs{
+  width: 20px;  
+  height: 18px;
+}
+.foter{
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);  
+  width:90%; 
+  height: 55px;
+  display: flex;
+  padding: 30px 10px;
+  flex-direction: row;
+  border-radius: 12px;
+  margin-left: 20px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  justify-content: space-between;
+  align-items: center; 
+}
+.footer{
+  margin-bottom: 0px; 
+  background-color: rgba(255, 255, 255, 0.75); 
+}
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
